@@ -1,8 +1,6 @@
-# data-science
-data-science-notas-filmes
 
  <!-- Explicação do projeto -->
-<h1 align="left">data-science</h1>
+<h1 align="left">bootcamp-dados-igti</h1>
 <h2 align="left"> 🧾 Descrição </h2>
 <p align="left"> Repositório criado para o conteúdo do Bootcamp de ciência de dados da IGTI</p>
 <p align="left"> Para armazenar conteúdos feitos em aulas e a resolução dos desafios</p>
