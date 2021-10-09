@@ -317,8 +317,7 @@ ggplot(data = dados_anova, aes(x = Gastos, fill = Estado_Civil)) +
 boxplot(dados_anova$Gastos ~ dados_anova$Estado_Civil)
 #Com o comando aov(), o R gera a tabela da ANOVA completa
 anova <- aov(Gastos~ #Variável resposta
-               Estado_Civil, #Fator que queremos testar se exerce influencia na variável 
-             resposta
+               Estado_Civil, #Fator que queremos testar se exerce influencia na variável resposta
              data = dados_anova)
 #Visualize a tabela da ANOVA. Observe o F calculado e o valor p ( Pr > F)
 summary(anova)
