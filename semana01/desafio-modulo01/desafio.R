@@ -84,7 +84,6 @@ plot(tabela_contigencia)
 chisq.test(tabela_contigencia) #ignore a mensagem de warning de vermelho
 
 
-
 #Explore a relação entre as variáveis Consumo e Possui Imóvel Próprio, responda:
 
 boxplot(dados$Consumo ~ dados$Possui_Imovel_Proprio)
