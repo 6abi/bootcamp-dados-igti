@@ -1,3 +1,9 @@
 /.idea/vcs.xml
-/semana02/title_ratings.tsv
+/semana02/data/title_ratings.tsv
+/semana02/df_cnae.csv
+/semana02/data/
+/semana02/df_cnae/
+/semana02/df_cnae.json/
+/semana02/df_cnae.orc/
+/semana02/df_cnaet_este/
 /semana02/df_cnae.csv
