@@ -15,15 +15,6 @@
 	<p align="left">🚧 Em construção... 🚧</p>
 </h4>
 
-<!-- Indice -->
-<!--<p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#roadmap">Roadmap</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
-</p>-->
 
 <!-- Tecnologias envolvidas -->
 <div align="left" class='container'>
@@ -35,4 +26,5 @@
 	
 	
 </div>
-						 
+			
+			
