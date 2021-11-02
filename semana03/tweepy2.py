@@ -56,3 +56,8 @@ class TweetsListener(StreamListener):
         s.bind((host, port))
 
         print("Listening on port %s " % str(port))
+
+        s.listen(5) #wait for connection
+        c, addr = s.accept()
+
+        print("Received request from: " + str(addr))
