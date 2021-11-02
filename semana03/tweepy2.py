@@ -48,4 +48,11 @@ class TweetsListener(StreamListener):
         twitter_stream = Stream(auth, TweetsListener(c_socket)) #define the type of conection
         twitter_stream.filter(track=['Bolsonaro'])
 
+    if __name__ == '__main__':
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #Local socket (IPv6, ICP)
+        #local config
+        host = '127.0.0.1'
+        port = 9995
+        s.bind((host, port))
 
+        print("Listening on port %s " % str(port))
