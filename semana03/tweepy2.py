@@ -7,10 +7,10 @@ import json
 from decouple import config
 
 #Set up the credencials
-consumer_key = 'consumer_key'
-consumer_secret = 'consumer_secret'
-access_token = 'access_token'
-access_secret = 'access_secret'
+consumer_key = 'WBpG17wmUVDKn6ZpVy0xF9T3l'
+consumer_secret = '8vVlL8ezZC2CyjSspsOxF2Q4cIHt3tu4rivzvPgG01vm5xziau'
+access_token = '214639969-Cr4wkVVyqgTvJCnXDp1ldYCLmwFHq4H4pd2gRW8k'
+access_secret = 'JWkb0c77OkTEt1BkEhSt77RrPn2RtHdybGW5MvHOqR8jd'
 
 class TweetsListener(StreamListener):
     """Standard features"""
@@ -52,10 +52,11 @@ class TweetsListener(StreamListener):
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #Local socket (IPv6, ICP)
         #local config
         host = '127.0.0.1'
-        port = 9999
+        port = 9995
         s.bind((host, port))
 
         print("Listening on port %s " % str(port))
+        print(access_secret)
 
         s.listen(5) #wait for connection
         c, addr = s.accept()
