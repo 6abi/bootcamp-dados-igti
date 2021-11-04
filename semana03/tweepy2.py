@@ -7,10 +7,6 @@ import json
 from decouple import config
 
 #Set up the credencials
-consumer_key = 'WBpG17wmUVDKn6ZpVy0xF9T3l'
-consumer_secret = '8vVlL8ezZC2CyjSspsOxF2Q4cIHt3tu4rivzvPgG01vm5xziau'
-access_token = '214639969-Cr4wkVVyqgTvJCnXDp1ldYCLmwFHq4H4pd2gRW8k'
-access_secret = 'JWkb0c77OkTEt1BkEhSt77RrPn2RtHdybGW5MvHOqR8jd'
 
 class TweetsListener(StreamListener):
     """Standard features"""
